@@ -1,0 +1,61 @@
+Kyle Criddle, Zach Van Uum
+CS 460
+fall 2014
+assigment 8
+
+DESCRIPTION:
+  - Subset of Sonoran Cellular web application.
+
+DEFAULT FILES:
+  - README_hw8
+  - destroy.sql
+  - create.sql
+  - populate.sql
+  - LoginServlet.java
+  - AddPlan.java
+  - AddAccountInformation.java
+  - FindBill.java
+  - OracleConnect.java
+  - SharedAssigment.jsp
+
+EXTRA FILES:
+  - main.js
+  - draw.js
+  - shared_plan.js
+  - jquery.min.js
+  - style.css
+
+DEPENDENCIES:
+  - java 7
+  - oracle jdbc driver
+  - sqlpl
+  - modern browser capable of javascript!
+
+COMPILING:
+  $ cd SonoranCellular/WEB-INF/classes
+  $ make
+
+USAGE:
+  in browser:
+  oxford:3868/SonoranCellular/
+
+NOTES:
+  - It does not say to turnin OracleConnect.java, but we added many functions
+    to that file which are necessary for our web application, so we turned it in
+  - the files main.js, draw.js and jquery.min.js all should be in the root of
+    SonoranCellular/ directory.
+  - We did not edit the Makefile
+
+EXTRA CREDIT:
+
+  1) additional functionality: dynamic web content
+      -- we used javascript ajax calls to submit forms, and captured the return
+         values from our servlets. Then we updated the html in current page,
+         or gave the user a popup alert message.  ie, we returned either
+         JSON objects or text from the servlet instead of html and dynamically
+         generated html content in the current page using javascript.
+
+  2) professional look: web design styling
+      -- style.css defines the styling for the page content. We used this to
+         make the site look more professional, and the html more readable.
+

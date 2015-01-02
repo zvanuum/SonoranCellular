@@ -1,0 +1,13 @@
+
+2) error check form inputs
+
+3)
+  AddPlan:
+    - window alert for return from ajax call
+4)
+  FindBill:
+    - clear the find_bill div on cancel button click
+5) 
+  SharedPlan:
+    - shared_plan.js main menu button and log out button: define function to
+      either go to index.html/?id?name or just to index.html

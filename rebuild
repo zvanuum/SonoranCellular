@@ -1,0 +1,9 @@
+#!/bin/bash
+
+~/tomcat7/soncell/bin/shutdown.sh
+rm ~/tomcat7/soncell/logs/catalina.out
+cd ~/tomcat7/soncell/webapps/SonoranCellular/WEB-INF/classes
+make clean
+make
+~/tomcat7/soncell/bin/startup.sh
+cd ~/tomcat7/soncell/webapps/SonoranCellular
